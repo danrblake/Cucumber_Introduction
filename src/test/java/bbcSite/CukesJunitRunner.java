@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         format = {"pretty"},
         features = {"C:\\Users\\TECH-W84.LAPTOP-FCCNLJDE\\IdeaProjects\\Cucumber_Introduction\\src\\test\\resources\\Features\\login.feature"},
-        glue = {"Step_Defs"}
+        glue = {"Step_Defs"},
+        tags = {"@FunctionalTest"}
 )
 public class CukesJunitRunner {
 
